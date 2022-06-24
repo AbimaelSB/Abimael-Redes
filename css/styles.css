@@ -1,0 +1,67 @@
+#cabeçalho {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+body {
+    background-color: white;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#img_perfil {
+    width: 240px;
+    height: 240px;
+    border: 2px solid black;
+    border-radius: 50%;
+}
+
+#logo_ufc {
+    width: 240px;
+    height: 240px;
+    border: 2px solid black;
+    border-radius: 50%;
+}
+
+#title {
+    text-align: center;
+    color: black;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+#biografia {
+    font-size: 18px;
+    text-align: center;
+    margin: 10px;
+}
+
+.subtitle, .post_title {
+    color: blue;
+    text-align: center;
+}
+
+.post_title {
+    font-size: 16px;
+    font-style: italic;
+}
+
+.post {
+    background-color: white;
+    text-align: justify;
+    padding: 10px 10px;
+    border: 3px solid black;
+    margin: 10px;
+}
+
+#campus_qxd {
+    display: block;
+    max-width: 90%;
+    margin: auto;
+    max-height: 100%;
+    border-radius: 2.5%;
+    text-align: center;
+}
