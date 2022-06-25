@@ -8,6 +8,7 @@ body {
     background-color: white;
     margin-left: 10px;
     margin-right: 10px;
+    font-family: Verdana;
 }
 
 #img_perfil {
@@ -24,8 +25,11 @@ body {
     border-radius: 50%;
 }
 
-#title {
+#titulo {
+    font-size: 30px;
+    font-family: Tahoma;
     text-align: center;
+    text-transform: uppercase; /* maiusculas */
     color: black;
     margin-left: auto;
     margin-right: auto;
@@ -33,15 +37,17 @@ body {
     max-height: 100%;
 }
 
-#biografia {
-    font-size: 18px;
+#titulo p {
+    font-size: 20px;
+    text-transform: capitalize; /* capitalizadas */
     text-align: center;
     margin: 10px;
 }
 
 .subtitle, .post_title {
-    color: blue;
+    color: black;
     text-align: center;
+
 }
 
 .post_title {
@@ -64,4 +70,16 @@ body {
     max-height: 100%;
     border-radius: 2.5%;
     text-align: center;
+}
+
+a {
+    color: black;
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+#cursos {
+    list-style-image: url("img/capelo.png");
+    /* margin-left: 10px; */
 }
