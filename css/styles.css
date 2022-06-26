@@ -1,3 +1,12 @@
+/* :root {
+  --'nome da variavel': cor;
+} */
+
+footer  {
+    text-align: center;
+    font-size: small;
+}
+
 #cabeçalho {
     display: flex;
     align-items: center;
@@ -79,7 +88,15 @@ a {
     text-decoration: underline;
 }
 
+a:hover {
+    color: green;
+}
 #cursos {
     list-style-image: url('../img/capelo.png');
-    /* margin-left: 10px; */
+    /* list-style-type: lower-roman;
+    list-style-position: inside; */
 }
+
+/* #cursos:hover {
+    list-style-image: url('../img/capelo2.png');
+} */
