@@ -65,8 +65,8 @@ body {
 
 #campus_qxd {
     display: block;
-    max-width: 90%;
     margin: auto;
+    max-width: 100%;
     max-height: 100%;
     border-radius: 2.5%;
     text-align: center;
@@ -80,6 +80,6 @@ a {
 }
 
 #cursos {
-    list-style-image: url("img/capelo.png");
+    list-style-image: url('../img/capelo.png');
     /* margin-left: 10px; */
 }
