@@ -54,6 +54,14 @@ body {
     margin: 10px;
 }
 
+#especificacoes li {
+    list-style-type: none;
+}
+
+#especificacoes h4, p {
+    margin: 3px;
+}
+
 .post_title {
     color: black;
     text-align: center;
