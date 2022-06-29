@@ -40,7 +40,7 @@ body {
     font-size: 30px;
     font-family: Tahoma;
     text-align: center;
-    text-transform: uppercase; /* maiusculas */
+    text-transform: uppercase;
     color: black;
     margin: auto;
     max-width: 100%;
@@ -49,18 +49,14 @@ body {
 
 #titulo p {
     font-size: 20px;
-    text-transform: capitalize; /* capitalizadas */
+    text-transform: capitalize;
     text-align: center;
     margin: 10px;
 }
 
-.subtitle, .post_title {
+.post_title {
     color: black;
     text-align: center;
-
-}
-
-.post_title {
     font-size: 16px;
     font-style: italic;
 }
@@ -69,7 +65,6 @@ body {
     background-color: white;
     text-align: justify;
     padding: 10px 10px;
-    /* border: 3px solid black; */
     margin: 10px;
 }
 
@@ -94,10 +89,4 @@ a:hover {
 }
 #cursos {
     list-style-image: url('../img/capelo.png');
-    /* list-style-type: lower-roman;
-    list-style-position: inside; */
 }
-
-/* #cursos:hover {
-    list-style-image: url('../img/capelo2.png');
-} */
