@@ -9,7 +9,7 @@ footer  {
 
 #cabeçalho {
     display: flex;
-    /* flex-direction: row; */
+    flex-direction: row;
     /* flex-wrap: wrap; */
     align-items: center;
     justify-content: center;
@@ -20,6 +20,7 @@ body {
     margin-left: 10px;
     margin-right: 10px;
     font-family: Verdana;
+    font-size: 1em;
 }
 
 #img_perfil {
@@ -54,12 +55,30 @@ body {
     margin: 10px;
 }
 
+#SobreOCurso {
+    display: flex;    
+}
+
+#especificacoes {
+    margin: 10px auto auto 0;
+    padding-inline-start: 0;
+    min-width: 200px;
+}
+
 #especificacoes li {
     list-style-type: none;
 }
 
-#especificacoes h4, p {
-    margin: 3px;
+#especificacoes h4 {
+    margin: 3px auto;
+}
+
+#especificacoes p {
+    margin: 3px auto;
+}
+
+#objetivo {
+    margin: 10px auto auto 25px;
 }
 
 .post_title {
@@ -68,7 +87,6 @@ body {
 }
 
 .post {
-    background-color: white;
     text-align: justify;
     padding: 10px 10px;
     margin: 10px;
@@ -76,7 +94,7 @@ body {
 
 #campus_qxd {
     display: block;
-    margin: auto;
+    margin: 20px auto 0 auto;
     max-width: 100%;
     max-height: 100%;
     border-radius: 2.5%;
