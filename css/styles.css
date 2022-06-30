@@ -2,6 +2,14 @@
   --'nome da variavel': cor;
 } */
 
+body {
+    background-color: white;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-family: Verdana;
+    font-size: 1em;
+}
+
 footer  {
     text-align: center;
     font-size: small;
@@ -9,18 +17,10 @@ footer  {
 
 #cabeçalho {
     display: flex;
-    flex-direction: row;
+    /* flex-direction: row; */
     /* flex-wrap: wrap; */
     align-items: center;
-    justify-content: center;
-}
-
-body {
-    background-color: white;
-    margin-left: 10px;
-    margin-right: 10px;
-    font-family: Verdana;
-    font-size: 1em;
+    justify-content: space-between;
 }
 
 #img_perfil {
@@ -43,15 +43,14 @@ body {
     text-align: center;
     text-transform: uppercase;
     color: black;
-    margin: auto;
-    max-width: 100%;
-    max-height: 100%;
+    /* max-width: 100%;
+    max-height: 100%; */
+    /* width: 200px; */
 }
 
 #titulo p {
     font-size: 20px;
     text-transform: capitalize;
-    text-align: center;
     margin: 10px;
 }
 
