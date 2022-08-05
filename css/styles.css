@@ -9,8 +9,11 @@ body {
     font-size: 1.2rem;
 }
 
-img {
-    display: block;
+.imgs_cabecalho {
+    max-width: 200px;
+    height: 200px;
+    border: 2px solid black;
+    border-radius: 50%;
 }
 
 footer  {
@@ -20,16 +23,25 @@ footer  {
 
 .flex {
     display: flex;
-    /* flex-wrap: wrap; */
+}
+
+.item{
+    flex: 1;
+}
+
+.center{
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
+}
+
+.wrap{
+    flex-wrap: wrap;
 }
 
 #especificacoes {
     display: flex;
     flex-direction: column;
-    flex: 1 0 auto; /* flex-grow: 1; flex-shrink: 0; flex-basis: auto; */
-    margin: auto;
+    flex-basis: 180px;
     margin-left: 0;
     padding: 10px;
     padding-left: 0;
@@ -46,26 +58,21 @@ footer  {
 }
 
 #objetivo {
-    margin: auto 10px;
-    padding: 10px;
+    flex: 1;
+    margin: auto 5px;
+    padding: 5px;
 }
 
-.imgs_cabecalho {
-    width: 240px;
-    height: 240px;
-    border: 2px solid black;
-    border-radius: 50%;
-}
-
-#titulo {
+.titulo h1{
     font-size: 2rem;
     text-align: center;
     text-transform: uppercase;
     color: black;
 }
 
-#titulo p {
+.titulo p {
     font-size: 1.5rem;
+    text-align: center;
     text-transform: capitalize;
     margin: 10px;
 }
@@ -82,11 +89,13 @@ footer  {
 }
 
 #campus_qxd {
+    display: block;
+    text-align: center;
     margin: 20px auto 0 auto;
     max-width: 100%;
     max-height: 100%;
     border-radius: 2.5%;
-    text-align: center;
+
 }
 
 a {
