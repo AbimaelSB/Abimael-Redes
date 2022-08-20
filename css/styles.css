@@ -109,8 +109,6 @@ a {
 @media(max-width: 650px){
     .flex{
         flex-direction: column;
-        justify-content: center;
-        align-items: center;
     }
 
     .imgs_cabecalho {
