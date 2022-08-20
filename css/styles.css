@@ -2,13 +2,18 @@ body {
     margin-left: 10px;
     margin-right: 10px;
     font-family: 'Times New Roman';
-    font-size: 1.2rem;
+    font-size: 1.25rem;
     display: flex;
-    margin: 8px auto 0 auto;
+    margin: auto;
     max-width: 1000px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+#cabecalho{
+    margin: 10px;
+    padding: 10px;
 }
 
 .imgs_cabecalho {
@@ -20,7 +25,7 @@ body {
 
 footer  {
     text-align: center;
-    font-size: small;
+    font-size: 1rem;
 }
 
 .flex {
@@ -112,8 +117,8 @@ a {
     }
 
     .imgs_cabecalho {
-        max-width: 300px;
-        max-height: 300px;
+        max-width: 250px;
+        max-height: 250px;
     }
 
     #especificacoes{
