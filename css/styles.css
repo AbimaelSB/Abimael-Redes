@@ -107,3 +107,11 @@ a {
 #cursos {
     list-style-image: url('../img/capelo.png');
 }
+
+@media(max-width: 650px){
+    .center{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
