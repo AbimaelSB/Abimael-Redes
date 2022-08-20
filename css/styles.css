@@ -1,12 +1,14 @@
-/* :root {
-  --'nome da variavel': cor;
-} */
-
 body {
     margin-left: 10px;
     margin-right: 10px;
     font-family: 'Times New Roman';
     font-size: 1.2rem;
+    display: flex;
+    margin: 8px auto 0 auto;
+    max-width: 1000px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .imgs_cabecalho {
@@ -34,10 +36,6 @@ footer  {
     justify-content: center;
 }
 
-.wrap{
-    flex-wrap: wrap;
-}
-
 #especificacoes {
     display: flex;
     flex-direction: column;
@@ -59,8 +57,6 @@ footer  {
 
 #objetivo {
     flex: 1;
-    margin: auto 5px;
-    padding: 5px;
 }
 
 .titulo h1{
@@ -99,6 +95,7 @@ footer  {
 }
 
 a {
+    text-decoration: none;
     color: black;
     font-weight: bold;
     font-style: italic;
@@ -106,12 +103,22 @@ a {
 
 #cursos {
     list-style-image: url('../img/capelo.png');
+    text-align: left;
 }
 
 @media(max-width: 650px){
-    .center{
+    .flex{
         flex-direction: column;
         justify-content: center;
         align-items: center;
+    }
+
+    .imgs_cabecalho {
+        max-width: 300px;
+        max-height: 300px;
+    }
+
+    #especificacoes{
+        align-self: flex-start;
     }
 }
